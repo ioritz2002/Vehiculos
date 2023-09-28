@@ -17,7 +17,7 @@ def vehiculos_fich_a_lista(file_name):
                     ve.matricula = d["matricula"]
                     ve.marca = d["marca"]
                     ve.modelo = d["modelo"]
-                    ve.fecha_creacion = d["fecha_creacion"]
+                   # ve.fecha_creacion = d["fecha_creacion"]
 
                     vehiculos.append(ve)
 
@@ -27,9 +27,12 @@ def vehiculos_fich_a_lista(file_name):
 
     pass
 
+#def mostrar_datos_formateado(vehiculo):
+#    print("---Vehiculo---\nMatricula: " + vehiculo.matricula + "\nMarca: " + vehiculo.marca + "\nModelo: " + vehiculo.modelo +
+ #          "\nFecha de creacion: " + datetime.datetime.utcfromtimestamp(vehiculo.fecha_creacion))
+ #   pass
 def mostrar_datos_formateado(vehiculo):
-    print("---Vehiculo---\nMatricula: " + vehiculo.matricula + "\nMarca: " + vehiculo.marca + "\nModelo: " + vehiculo.modelo +
-           "\nFecha de creacion: " + datetime.datetime.utcfromtimestamp(vehiculo.fecha_creacion))
+    print("---Vehiculo---\nMatricula: " + vehiculo.matricula + "\nMarca: " + vehiculo.marca + "\nModelo: " + vehiculo.modelo)
     pass
 
 def listar(file_name):
