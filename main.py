@@ -1,5 +1,7 @@
 import json
+import listar
 
+file_name = "vehiculos.json"
 continuar = True
 while continuar:
     print("1. Agregar una persona")
@@ -14,7 +16,7 @@ while continuar:
         print("Agregar una persona")
 
     elif opcion == 2:
-        print("Listar persona")
+        listar.listar(file_name)
 
     elif opcion == 3:
         print("Eliminar")
