@@ -1,15 +1,10 @@
 
 #!/usr/bin/env python3
-
-import json
-import vehiculo
-import agregar_vehiculo
-
-
 import json
 import listar
 import vehiculo
 import agregar_vehiculo
+import update
 
 file_name = "vehiculos.json"
 continuar = True
@@ -34,6 +29,7 @@ while continuar:
 
     elif opcion == 4:
         print("Actualizar")
+        update.run(file_name)
     
     elif opcion == 5:
         print("Saliendo del programa.")

@@ -11,7 +11,13 @@
     },
     {
         "matricula": "4006CSD",
-        "marca": "peugeot",
-        "modelo": "406"
+        "marca": "mini",
+        "modelo": "cooper"
+    },
+    {
+        "matricula": "1234ABC",
+        "marca": "dacia",
+        "modelo": "duster",
+        "fecha_creacion": "07/08/2002"
     }
 ]
