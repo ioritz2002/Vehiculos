@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 import listar
 
@@ -5,7 +7,7 @@ file_name = "vehiculos.json"
 continuar = True
 while continuar:
     print("1. Agregar una persona")
-    print("2. Listar personas")
+    print("2. Listar vehiculos")
     print("3. Eliminar")
     print("4. Actualizar")
     print("5. Salir")

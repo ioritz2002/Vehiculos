@@ -24,6 +24,7 @@ def vehiculos_fich_a_lista(file_name):
         return vehiculos
     except FileNotFoundError:
         print("El fichero no existe")
+        raise Exception("El fichero no existe")
 
     pass
 
@@ -36,9 +37,13 @@ def mostrar_datos_formateado(vehiculo):
     pass
 
 def listar(file_name):
-    vehiculos = vehiculos_fich_a_lista(file_name)
+    try:
+        vehiculos = vehiculos_fich_a_lista(file_name)
+        
+        for i in range(len(vehiculos)):
+            mostrar_datos_formateado(vehiculos[i])
+    except Exception as e:
+        pass
     
-    for i in vehiculos:
-        mostrar_datos_formateado(i)
     
     pass

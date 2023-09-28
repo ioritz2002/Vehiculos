@@ -1,0 +1,12 @@
+[
+    {
+        "matricula":"1111AAA",
+        "marca":"seat",
+        "modelo":"leon"
+    },
+    {
+        "matricula":"2222BBB",
+        "marca":"opel",
+        "modelo":"corsa"
+    }
+]
