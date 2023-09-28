@@ -17,7 +17,7 @@ def vehiculos_fich_a_lista(file_name):
                     ve.matricula = d["matricula"]
                     ve.marca = d["marca"]
                     ve.modelo = d["modelo"]
-                   # ve.fecha_creacion = d["fecha_creacion"]
+                   #ve.fecha_creacion = d["fecha_creacion"]
 
                     vehiculos.append(ve)
 

@@ -24,7 +24,7 @@ while continuar:
 
 
     if opcion == 1:
-        agregar_vehiculo.insertar_vehiculo()
+        agregar_vehiculo.crear_vehiculo(file_name)
     
     elif opcion == 2:
         listar.listar(file_name)
