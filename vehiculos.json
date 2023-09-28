@@ -1,12 +1,23 @@
 [
     {
-        "matricula":"1111AAA",
-        "marca":"seat",
-        "modelo":"leon"
+        "matricula": "1111AAA",
+        "marca": "seat",
+        "modelo": "leon"
     },
     {
-        "matricula":"2222BBB",
-        "marca":"opel",
-        "modelo":"corsa"
+        "matricula": "2222BBB",
+        "marca": "opel",
+        "modelo": "corsa"
+    },
+    {
+        "matricula": "4006CSD",
+        "marca": "mini",
+        "modelo": "cooper"
+    },
+    {
+        "matricula": "1234ABC",
+        "marca": "dacia",
+        "modelo": "duster",
+        "fecha_creacion": "07/08/2002"
     }
 ]
