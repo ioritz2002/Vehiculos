@@ -1,9 +1,11 @@
 import json
+import vehiculo
+import agregar_vehiculo
 
 continuar = True
 while continuar:
-    print("1. Agregar una persona")
-    print("2. Listar personas")
+    print("1. Agregar una vehiculos")
+    print("2. Listar vehiculos")
     print("3. Eliminar")
     print("4. Actualizar")
     print("5. Salir")
@@ -11,10 +13,10 @@ while continuar:
 
 
     if opcion == 1:
-        print("Agregar una persona")
-
+        agregar_vehiculo.insertar_vehiculo()
+    
     elif opcion == 2:
-        print("Listar persona")
+        print("Listar vehiculos")
 
     elif opcion == 3:
         print("Eliminar")
